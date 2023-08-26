@@ -8,10 +8,10 @@ class TV:
         
         self.marca = marca 
         self.canal = 1 
-        self. precio = 500 
+        self.precio = 500 
         self.estado = estado
         self.volumen = 1 
-        self.control
+        self.control = None
         TV.numTV += 1
 
     def getMarca(self):

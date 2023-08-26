@@ -11,8 +11,8 @@ class TV:
         self. precio = 500 
         self.estado = estado
         self.volumen = 1 
-        self.control 
-        numTv += 1
+        self.control
+        TV.numTV += 1
 
     def getMarca(self):
         return self.marca

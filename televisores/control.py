@@ -4,7 +4,7 @@ class Control:
 
     def __init__(self,tv):
 
-        self.tv = tv
+        self.tv
 
     def turnOn(self):
         self.tv.turnOn()

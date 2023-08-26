@@ -1,7 +1,7 @@
 class Marca:
-    def __init__ (self, nombre):
+    def __init__ (self):
         
-        self._nombre = nombre
+        self.nombre = None
     
     def getNombre(self):
         
